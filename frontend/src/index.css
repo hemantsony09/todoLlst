@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.login{
+    background: url(../public/bg-login.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Custom scrollbar styles */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 2px; /* Set the width of the scrollbar */
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent; /* Make the scrollbar track transparent */
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: rgba(106, 144, 255, 0.8); /* Semi-transparent color for the scrollbar thumb */
+  border-radius: 10px; /* Rounded corners for the scrollbar thumb */
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background: rgba(106, 144, 255, 1); /* Fully opaque on hover */
+}
+
+.custom-scrollbar {
+  scrollbar-width: none; /* Firefox scrollbar width */
+  scrollbar-color: rgba(106, 144, 255, 0.8) transparent; /* Semi-transparent color for the thumb */
+}
